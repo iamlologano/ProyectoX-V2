@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/fixed.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
   <script src ="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
 
@@ -23,18 +23,19 @@
 
 <body>
 
-<div id="home">
+<div class="navegationbar">
   <!-- Navbar inicio -->
 <nav class = "navbar navbar-expand-md navbar-light bg-light fixed-top"> 
       <a class= "navbar-brand" href="#"> <img src= "logo2.png" width = "200" > </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
 
    </button>
-   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <!-- Stilo definido en el CSS para esta parte style="color:#FF8819"--> 
+   <div class="collapse navbar-collapse" id="navbarResponsive">
      <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link " href="index.html">Inicio</a>
+            <a class="nav-link " href="index.html" >Inicio</a>
           </li>  
            <li class="nav-item">
             <a class="nav-link" href="#">Productos</a>
@@ -42,17 +43,19 @@
            <li class="nav-item dropdown">
            <a class= "nav-link dropdown-toggle" href="#" id= "navbarDropdown" role="button" data-toggle= "dropdown">Servicios</a>
           <div class="dropdown-menu" aria-labelledby= "navbarDropdown">
-          <a class= "dropdown-item" href="#">Alta Tension</a>
+          <a class= "dropdown-item" href="#" >Alta Tension</a>
           <div class = "dropdown-divider"> </div>
-          <a class= "dropdown-item"href="#">Media Tension</a>
+          <a class= "dropdown-item"href="#" >Media Tension</a>
           <div class = "dropdown-divider"> </div>
-          <a class= "dropdown-item" href="#">Baja Tension</a>
+          <a class= "dropdown-item" href="#" >Baja Tension</a>
            </div> 
         </li>
            <li class="nav-item">
-            <a class="nav-link" href="#">¿Quienes somos?</a>     
+            <a class="nav-link" href="#" >¿Quienes somos?</a>     
      </ul>
    </div>
+</div>
+
  </nav>
   <!-- Carusel working inicio-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -97,7 +100,6 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
 </div>
 </div>
 
@@ -149,8 +151,8 @@
 
     <div class= "col-sm-4">
       <h3> Nuestras Redes Sociales </h3>
-      <a href= "https://www.facebook.com/Metrolog%C3%ADa-Integral-Y-Diagn%C3%B3sticos-El%C3%A9ctricos-SA-de-CV-2067813956877968/" class= "fa fa-facebook-square" style="font-size:36px"></a>
-      <a href= "#" class= "fa fa-whatsapp" style="font-size:36px"></a>
+      <a  class="fab fa-facebook-square" href= "https://www.facebook.com/Metrolog%C3%ADa-Integral-Y-Diagn%C3%B3sticos-El%C3%A9ctricos-SA-de-CV-2067813956877968/"  style="font-size:36px" ></a>
+        <a href= "#" class= "fa fa-whatsapp" style="font-size:36px"></a>
       <a href= "mailto: Contacto@metrologiaintegral.com.mx" class= "fa fa-address-book" style="font-size:36px"></a>
      <br>
      <br>
