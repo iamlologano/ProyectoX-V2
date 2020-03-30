@@ -9,7 +9,7 @@ font-family: 'Lato', sans-serif;
 
 
 #home {
-  background: url(test.jpeg) no-repeat center center fixed;
+  background: no-repeat center center fixed;
   display:; table;
   height: 100%;
   position: relative;
@@ -176,7 +176,7 @@ section {
   height: 100%;
   display: table;
 }
-.home-wrap {
+.-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
   top: 0;
