@@ -7,6 +7,16 @@ font-family: 'Lato', sans-serif;
   width: 100%;
 }
 
+
+#home {
+  background: url(test.jpeg) no-repeat center center fixed;
+  display:; table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
 /*--- nav bar styiling begins--*/
 .navbar { 
     text-transform: uppercase;
