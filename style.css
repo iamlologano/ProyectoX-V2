@@ -33,9 +33,7 @@
 
     }
 
-.carousel-indicators{
-bottom: 4px:
-}
+
     .paddingcarrusel{
     padding-top: 55px;
 
@@ -202,9 +200,11 @@ bottom: 4px:
   border-width: thin;
   border-radius: 0;
   font-size: 8px;    
-    bottom: 10%
+    top: 5%
     }
-
+.carousel-indicators{
+bottom: 2px:
+}
   }
 
   /*--- iOS Landing Page Fix
