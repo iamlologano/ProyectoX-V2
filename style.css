@@ -1,4 +1,39 @@
-h
+  @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+  html, body {
+
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+
+  /*--- 
+  #home {
+    background: url(test.jpeg) no-repeat center center fixed;
+    display:; table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+  --*/
+  /*--- nav bar styiling begins--*/
+  .navbar { 
+      text-transform: uppercase;
+    font-weight: 700;
+   background: rgba(255,255,255, .97)!important; 
+
+     /*--- 
+   background: rgba(255,255,255, .6)!important; 
+  /* ---
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 30%, rgba(255,255,0,1) 60%, rgba(255,136,25,1) 100%);  --*/ 
+  font-size: .9rem; 
+  letter-spacing: .1rem;
+
+    }
+
+
     .paddingcarrusel{
     padding-top: 55px;
 
