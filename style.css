@@ -91,7 +91,7 @@
    font-size: 2.3vw;
    font-weight: 700;
    text-shadow: .03rem .03rem .02rem black;
-   padding-bottom: 1.6rem;
+   padding-bottom: 1rem;
   }
 
   .btn-outline-warning{
@@ -99,7 +99,9 @@
   border-width: medium;
   border-radius: 0;
   font-size: 1rem;
+       padding-bottom: 1.6rem;
     }
+
    .popo {
       top: 0;
       bottom: auto;
