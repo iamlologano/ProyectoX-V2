@@ -33,9 +33,9 @@
 
     }
 
-    .paddingcarrusel {
+    .paddingcarrusel{
     padding-top: 55px;
-  width: 100%;
+
 
     }
     .navbar-brand {
@@ -65,15 +65,13 @@
   }
   /*--- navbar styling final--*/
 
-  /*--- carousel styiling inicio  
-.carousel-item {
+  /*--- carousel styiling inicio--*/
+
+  .carousel-item {
   min-height: 1000rem;
+
   width: 100%;
-
   }
---*/
-
-
   /*--- carousel styiling final--*/
   /*--- landing text inicio--*/
   .captionthis{
@@ -117,6 +115,7 @@
 
    font-weight: 700;
     text-transform: uppercase;
+  letter-spacing: .1rem;
 
   }
 
