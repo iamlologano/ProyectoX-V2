@@ -183,7 +183,7 @@
   @media(max-width: 719px)
   {
   .captionthis h1{
-        top: 15%;
+        top: 10%;
 
    font-size: .9rem;
 
@@ -200,6 +200,7 @@
   border-width: thin;
   border-radius: 0;
   font-size: 8px;    
+    bottom: 10%
     }
 
   }
