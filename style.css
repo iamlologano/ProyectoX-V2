@@ -206,7 +206,7 @@
 bottom: 2px:
 }
   }
- @media(min-width: 719px)
+ @media(max-width: 719px)
   {
   .captionthis h1{
         top: 10%;
