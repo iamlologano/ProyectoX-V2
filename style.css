@@ -35,8 +35,8 @@
 
     .paddingcarrusel{
     padding-top: 55px;
-
-
+  height: 100%;
+  width: 100%;
     }
     .navbar-brand {
     padding: 2px 2px 2px 2px;
