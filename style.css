@@ -183,22 +183,22 @@ color: #000000;
 
 }
 /*---Media Adapte --*/
-@media(max-width: 767px)
+@media(max-width: 719px)
 {
 .captionthis h1{
- font-size: 2.9rem;
+ font-size: 1.9rem;
 
  padding-bottom: .5rem;
 
 }
 .captionthis h3{
- font-size: 1.2rem;
+ font-size: .6rem;
  padding-bottom: 1.2rem;
 }
 
 .btn-outline-warning{
 
-font-size: 1rem;
+font-size: .4rem;
   }
 
 }
