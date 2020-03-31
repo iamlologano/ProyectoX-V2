@@ -35,7 +35,6 @@
 
     .paddingcarrusel {
     padding-top: 55px;
-   height: 100%;
   width: 100%;
 
     }
@@ -69,7 +68,7 @@
   /*--- carousel styiling inicio--*/
 
   .carousel-item {
-  min-height: 500px;
+  min-height: 500rem;
   width: 100%;
 
   }
