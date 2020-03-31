@@ -179,7 +179,7 @@
 
 
   /*---Media Adapte --*/
-  @media(max-width: 719px)
+  @media(max-width: 721px)
   {
   .captionthis h1{
    font-size: .9rem;
