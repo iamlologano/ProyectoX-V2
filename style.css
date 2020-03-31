@@ -183,6 +183,8 @@
   @media(max-width: 719px)
   {
   .captionthis h1{
+        top: 15%;
+
    font-size: .9rem;
 
    padding-bottom: .1rem;
@@ -195,7 +197,7 @@
 
   .btn-outline-warning{
 
-  font-size: .6rem;
+  font-size: 1rem;
     }
 
   }
