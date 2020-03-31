@@ -68,7 +68,7 @@
   /*--- carousel styiling inicio--*/
 
   .carousel-item {
-    min-height: 622px;
+    height:100%
 
   width: 100%;
   }
