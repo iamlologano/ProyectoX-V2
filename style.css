@@ -196,11 +196,11 @@
   }
 
   .btn-outline-warning{
-
-
+  display: fixed;
   border-width: thin;
   border-radius: 0;
-  font-size: .7rem;    }
+  font-size: 8px;    
+    }
 
   }
 
