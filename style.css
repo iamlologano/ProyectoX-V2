@@ -183,7 +183,7 @@
   @media(max-width: 719px)
   {
   .captionthis h1{
-        top: 10%;
+        top: 0;
 
    font-size: .9rem;
 
