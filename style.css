@@ -183,7 +183,7 @@
   @media(max-width: 719px)
   {
   .captionthis h1{
-        top: 0;
+        top: 10%;
 
    font-size: .9rem;
 
@@ -209,31 +209,46 @@ bottom: 2px:
 
  @media(max-width: 400)
   {
-  .captionthis h1{
-        top: 0;
-
-   font-size: .9rem;
-
-   padding-bottom: .1rem;
-
-  }
-  .captionthis h3{
-   font-size: .6rem;
-   padding-bottom: .4rem;
-  }
-
-  .btn-outline-warning{
-  display: fixed;
-  border-width: thin;
-  border-radius: 0;
-  font-size: 8px;    
-    top: 5%
-    }
 .carousel-indicators{
 display: none;
     }
   }
- 
+ @media(max-width: 200)
+  {
+.carousel-indicators{
+display: none;
+    }
+  }
+ @media(max-width: 300)
+  {
+.carousel-indicators{
+display: none;
+    }
+  }
+ @media(max-width: 500)
+  {
+.carousel-indicators{
+display: none;
+    }
+  } 
+ @media(max-width: 600)
+  {
+.carousel-indicators{
+display: none;
+    }
+  }
+ @media(max-width: 700)
+ {
+.carousel-indicators{
+display: none;
+    }
+  }
+ @media(max-width: 100)
+  {
+  .carousel-indicators{
+display: none;
+    }
+  }
   /*--- iOS Landing Page Fix
   section {
     position: relative;
