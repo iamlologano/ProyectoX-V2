@@ -36,7 +36,7 @@
 
     .paddingcarrusel{
     padding-top: 55px;
-
+      
 
     }
     .navbar-brand {
@@ -140,7 +140,8 @@
     vertical-align: center;
   }
   .carousel-indicators{
-display: none;
+/* --display: none;--*/
+ bottom: 2px:
     }
 
   /*--- landing text inicio--*/
@@ -185,7 +186,19 @@ display: none;
   /*---Media Adapte --*/
   @media(max-width: 719px)
   {
-  .captionthis h1{
+    .popo{
+
+      max-height: 350px;
+
+    }
+    .paddingcarrusel {
+    padding-top: 55px;
+     max-height: 500px;
+      width:100%; 
+
+    }
+  .captionthis h1 
+    {
         top: 10%;
 
    font-size: .9rem;
@@ -193,12 +206,14 @@ display: none;
    padding-bottom: .1rem;
 
   }
-  .captionthis h3{
+  .captionthis h3 
+    {
    font-size: .6rem;
    padding-bottom: .4rem;
   }
 
-  .btn-outline-warning{
+  .btn-outline-warning 
+    {
   display: fixed;
   border-width: thin;
   border-radius: 0;
@@ -206,8 +221,9 @@ display: none;
     top: 5%
     }
 .carousel-indicators{
-bottom: 2px:
-}
+display: none;
+    }
+    
   }
 
   /*--- iOS Landing Page Fix
